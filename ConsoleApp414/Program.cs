@@ -6,7 +6,11 @@ namespace ConsoleApp414
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string A = "a";
+            string B = "v";
+            bool C = A != B;
+            Console.WriteLine(C);
+
         }
     }
 }
