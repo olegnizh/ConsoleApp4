@@ -7,7 +7,7 @@ namespace ConsoleApp4111
         static void Main(string[] args)
         {
 			var a = 6;
-			var b = 6;
+			var b = 7;
 
 			if (a == b)
 			{
