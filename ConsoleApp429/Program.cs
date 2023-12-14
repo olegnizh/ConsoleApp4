@@ -16,20 +16,17 @@ namespace ConsoleApp429
                 Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
                 switch (Console.ReadLine())
                 {
-                    case "red":
-                        k++;
+                    case "red":                       
                         Console.BackgroundColor = ConsoleColor.Red;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is red!");
                         break;
                     case "green":
-                        k++;
                         Console.BackgroundColor = ConsoleColor.Green;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is green!");
                         break;
                     case "cyan":
-                        k++;
                         Console.BackgroundColor = ConsoleColor.Cyan;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is cyan!");
@@ -37,6 +34,7 @@ namespace ConsoleApp429
                     default:
                         break;
                 }
+                k++;
             }
             
             // 2
@@ -52,19 +50,16 @@ namespace ConsoleApp429
                 switch (Console.ReadLine())
                 {
                     case "red":
-                        x++;
                         Console.BackgroundColor = ConsoleColor.Red;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is red!");
                         break;
                     case "green":
-                        x++;
                         Console.BackgroundColor = ConsoleColor.Green;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is green!");
                         break;
                     case "cyan":
-                        x++;
                         Console.BackgroundColor = ConsoleColor.Cyan;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine("Your color is cyan!");
@@ -72,6 +67,7 @@ namespace ConsoleApp429
                     default:
                         break;
                 }
+                x++;
             } while (true);
             
             // 3
