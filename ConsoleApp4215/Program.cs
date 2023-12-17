@@ -10,7 +10,7 @@ namespace ConsoleApp4215
             while (true)
             {
                 Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
-                Console.WriteLine(n);
+                Console.WriteLine("Итерация {0}", n);
                 var text = Console.ReadLine();
                 if (text == "stop")
                 {
@@ -21,15 +21,15 @@ namespace ConsoleApp4215
                 switch (text)
                 {
                     case "red":
-                        n++;
+                        //n++;
                         Console.WriteLine("Вы иыбрали номером {0} цвет {1}", n, text);
                         break;
                     case "green":
-                        n++;
+                        //n++;
                         Console.WriteLine("Вы иыбрали номером {0} цвет {1}", n, text);
                         break;
                     case "cyan":
-                        n++;
+                        //n++;
                         Console.WriteLine("Вы иыбрали номером {0} цвет {1}", n, text);
                         break;
                     default:
@@ -37,6 +37,7 @@ namespace ConsoleApp4215
                         continue;
                        
                 }
+                n++;
             }
 
 
